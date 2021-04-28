@@ -2,6 +2,7 @@
     "name": "frf/discord-notification",
     "description": "Send message to webhook discord channel",
     "type": "library",
+    "license": "MIT",
     "require": {
         "guzzlehttp/guzzle": "^7.3"
     },
