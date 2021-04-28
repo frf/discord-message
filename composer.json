@@ -1,0 +1,19 @@
+{
+    "name": "frf/discord-notification",
+    "description": "Send message to webhook discord channel",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "Fabio Farias",
+            "email": "fabio@fabiofarias.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "frf\\discord-notification\\": "src/"
+        }
+    }
+}
