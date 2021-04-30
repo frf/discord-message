@@ -41,6 +41,7 @@ DISCORD_HOOK=https://discord.com/api/webhooks/4334343/XaFx43434343lGHYvQHoQO0ykh
 ### Exemple to use command line
 ```sh
 php artisan discord:send_message Teste
+php artisan discord:send_message Teste warning
 ```
 ### Exemple to use injection service,
 ``Remembering that there is no better place on the controller 😅, I put it just as a practical example``
@@ -53,11 +54,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function (DiscordService $discordService) {
 
-    $discordService->sendMessage('Hello People!');
+    $discordService
+    ->title('Mensagem Teste')
+    ->description('Descricao')
+    ->footer('Footer')
+    ->success()
+    ->timestamp(Carbon::now())
+    ->send();
 
     return view('welcome');
 });
 ```
+
+## Result
+
+![App Screenshot](https://github.com/frf/images-apps/blob/main/discord-message/message.png?raw=true)
 
 ## License
 
