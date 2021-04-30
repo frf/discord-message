@@ -4,6 +4,7 @@
     "type": "library",
     "license": "MIT",
     "require": {
+        "php" : "^7.2.5|^8.0",
         "guzzlehttp/guzzle": "^7.3"
     },
     "authors": [
@@ -14,7 +15,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "frf\\discord-notification\\": "src/"
+            "Frf\\DiscordNotification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Frf\\DiscordNotification\\NotificationServiceProvider"
+            ]
         }
     }
 }

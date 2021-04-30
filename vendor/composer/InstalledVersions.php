@@ -25,24 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'fabiorocha/discord-notification',
+    'reference' => 'bbf53b62cd16decdcc0793060dff44cc82e9dc25',
+    'name' => 'frf/discord-notification',
   ),
   'versions' => 
   array (
-    'fabiorocha/discord-notification' => 
+    'frf/discord-notification' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'bbf53b62cd16decdcc0793060dff44cc82e9dc25',
     ),
     'guzzlehttp/guzzle' => 
     array (
