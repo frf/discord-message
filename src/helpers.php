@@ -1,12 +1,12 @@
 <?php
+namespace Frf\DiscordNotification;
 
-if (! function_exists('NotificationHelper')) {
+class NotificationHelper {
     /**
      * @param string $message
-     *
      * @return void
      */
-    function sendMessage(string $message): void
+    public static function sendMessage(string $message): void
     {
         try {
             $client = new \GuzzleHttp\Client();
