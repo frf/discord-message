@@ -1,6 +1,6 @@
 <?php
 
-namespace frf\DiscordNotification\Services;
+namespace Frf\DiscordNotification\Services;
 
 use Illuminate\Support\Facades\Http;
 

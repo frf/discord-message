@@ -2,7 +2,7 @@
 
 namespace frf\DiscordNotification\Console\Commands;
 
-use frf\DiscordNotification\Services\DiscordService;
+use Frf\DiscordNotification\Services\DiscordService;
 use Illuminate\Console\Command;
 
 class DiscordNotificationCommand extends Command
