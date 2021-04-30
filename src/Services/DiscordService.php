@@ -2,25 +2,12 @@
 
 namespace Frf\DiscordNotification\Services;
 
-use Illuminate\Support\Facades\Http;
+use Frf\DiscordNotification\Helper\DiscordMessageHelper;
 
 /**
  * Class SyncService
  * @package App\Services
  */
-class DiscordService
+class DiscordService extends DiscordMessageHelper
 {
-    public function sendMessage(string $message): void
-    {
-        try {
-            Http::withHeaders([
-                'Content-type' => 'application/json',
-            ])->post(env('DISCORD_HOOK'), [
-                'content' => $message
-            ]);
-        } catch (\Exception $exception) {
-            dump($exception->getMessage());
-        }
-    }
-
 }

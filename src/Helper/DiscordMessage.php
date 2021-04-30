@@ -6,9 +6,9 @@ use Carbon\Carbon;
 
 class DiscordMessage
 {
-    const COLOR_SUCCESS = '#0B6623';
-    const COLOR_WARNING = '#FD6A02';
-    const COLOR_ERROR = '#ED2939';
+    const COLOR_SUCCESS = '0B6623';
+    const COLOR_WARNING = 'FD6A02';
+    const COLOR_ERROR = 'ED2939';
 
     /** @var string */
     protected $title;
