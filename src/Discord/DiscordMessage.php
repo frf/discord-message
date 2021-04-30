@@ -1,6 +1,6 @@
 <?php
 
-namespace Frf\DiscordNotification\Helper;
+namespace Frf\DiscordNotification\Discord;
 
 use Carbon\Carbon;
 

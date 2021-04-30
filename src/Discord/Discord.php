@@ -1,11 +1,11 @@
 <?php
 
-namespace Frf\DiscordNotification\Helper;
+namespace Frf\DiscordNotification\Discord;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
 
-class DiscordMessageHelper extends DiscordMessage
+class Discord extends DiscordMessage
 {
     public function send()
     {

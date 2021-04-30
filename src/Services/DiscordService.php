@@ -2,12 +2,12 @@
 
 namespace Frf\DiscordNotification\Services;
 
-use Frf\DiscordNotification\Helper\DiscordMessageHelper;
+use Frf\DiscordNotification\Discord\Discord;
 
 /**
  * Class SyncService
  * @package App\Services
  */
-class DiscordService extends DiscordMessageHelper
+class DiscordService extends Discord
 {
 }
