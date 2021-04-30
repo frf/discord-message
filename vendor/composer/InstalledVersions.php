@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'bbf53b62cd16decdcc0793060dff44cc82e9dc25',
+    'reference' => 'c728af10502b40daf873ccc5c3faf141c0b5b994',
     'name' => 'frf/discord-notification',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'bbf53b62cd16decdcc0793060dff44cc82e9dc25',
+      'reference' => 'c728af10502b40daf873ccc5c3faf141c0b5b994',
     ),
     'guzzlehttp/guzzle' => 
     array (

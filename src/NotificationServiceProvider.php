@@ -1,5 +1,5 @@
 <?php
-namespace frf\DiscordNotification;
+namespace Frf\DiscordNotification;
 
 use Frf\DiscordNotification\Console\Commands\DiscordNotificationCommand;
 use Illuminate\Support\ServiceProvider;
