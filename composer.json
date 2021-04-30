@@ -16,10 +16,7 @@
     "autoload": {
         "psr-4": {
             "Frf\\DiscordNotification\\": "src/"
-        },
-        "files": [
-            "src/Helper/"
-        ]
+        }
     },
     "extra": {
         "laravel": {
