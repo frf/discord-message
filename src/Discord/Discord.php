@@ -7,9 +7,11 @@ use GuzzleHttp\RequestOptions;
 
 class Discord extends DiscordMessage
 {
-    public function send()
+    public function send($discordHook)
     {
-        (new Client())->post(env('DISCORD_HOOK'), [
+        $uri = ($discordHook) ?: env('DISCORD_HOOK');
+
+        (new Client())->post($uri, [
             RequestOptions::JSON => $this->toArray(),
         ]);
     }
