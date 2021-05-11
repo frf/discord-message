@@ -7,7 +7,7 @@ use GuzzleHttp\RequestOptions;
 
 class Discord extends DiscordMessage
 {
-    public function send($discordHook)
+    public function send($discordHook = null)
     {
         $uri = ($discordHook) ?: env('DISCORD_HOOK');
 
